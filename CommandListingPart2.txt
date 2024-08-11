@@ -1,1 +1,15 @@
-git version git config --global user.name First Name Last Name
+git version 
+git config --global user.name "First Name Last Name"
+git config --global user.email "email"
+git config --global --list
+git clone github-https-url # paste in your GitHub HTTP clone URL
+ls
+cd udemygithub-demo
+ls
+cat start.txt
+git status
+git add start.txt
+git status
+git commit -m "adding start text file"
+git status
+git push origin main
